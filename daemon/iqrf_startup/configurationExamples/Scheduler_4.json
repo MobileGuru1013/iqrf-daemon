@@ -1,0 +1,16 @@
+{
+  "Tasks": [
+    "00 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "05 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "10 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "15 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "20 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "25 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "30 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "35 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "40 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "45 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "50 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}",
+    "55 * * * * * * BaseService2 {\"Type\":\"Thermometer\",\"Addr\":0,\"Comd\":\"READ\"}"
+  ]
+}

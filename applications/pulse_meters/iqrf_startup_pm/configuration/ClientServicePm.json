@@ -1,0 +1,30 @@
+{
+  "Implements": "IService",
+  "Instances": [
+    {
+      "Name": "ClientServicePm",
+      "Messaging": "MqttMessaging",
+      "Serializers": [
+        "JsonSerializer"
+      ],
+      "Properties": {
+        "FrcPeriod": 5,
+        "SleepPeriod": 30,
+        "Pulsemeters": [ 1, 2 ],
+        "DpaRequestJsonPattern": {
+          "ctype": "dpa",
+          "type": "Pulsemeter",
+          "cmd": "PULSE_READ",
+          "hwpid": "ffff",
+          "timeout": 10000,
+          "request": "",
+          "request_ts": "",
+          "confirmation": "",
+          "confirmation_ts": "",
+          "response": "",
+          "response_ts": ""
+        }
+      }
+    }
+  ]
+}

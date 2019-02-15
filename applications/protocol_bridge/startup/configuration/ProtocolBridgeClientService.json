@@ -1,0 +1,31 @@
+{
+  "Implements": "IService",
+  "Instances": [
+    {
+      "Name": "ProtocolBridgeClientService",
+      "Messaging": "MqttMessaging1",
+      "Serializers": [
+        "JsonSerializer"
+      ],
+      "Properties": {
+        "FrcPeriod": 30,
+        "SleepPeriod": 10,
+        "WmPeriod": 60,
+        "ProtocolBridges": [ 1 ],
+        "DpaRequestJsonPattern": {
+          "ctype": "dpa",
+          "type": "ProtocolBridge",
+          "cmd": "SYSINFO",
+          "hwpid": "ffff",
+          "timeout": 1000,
+          "request": "",
+          "request_ts": "",
+          "confirmation": "",
+          "confirmation_ts": "",
+          "response": "",
+          "response_ts": ""
+        }
+      }
+    }
+  ]
+}
